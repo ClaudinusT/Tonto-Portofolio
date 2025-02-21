@@ -5,7 +5,7 @@ from .models import Tag, Project, ProjectImage
 def home(request):
     projects = Project.objects.all()
     tags = Tag.objects.all()
-    return render(request, "home.html", {"projects": projects, "tags": tags})
+    return render(request, "content.html", {"projects": projects, "tags": tags})
 
 def contact(request):
     return render(request, "contact.html")

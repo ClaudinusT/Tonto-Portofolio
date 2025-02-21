@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+
 *, html {
     margin: 0;
     padding: 0;
@@ -20,17 +22,23 @@ header {
 
 body {
     overflow-x: hidden;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 .logo{
-    font-size: 25px;
+    font-size: 35px;
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    font-style: italic;
+}
+
+.logo:hover{
+    color: #00ff99;
 }
 
 nav a{
-    font-size: 20px;
+    font-size: 23px;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
@@ -40,7 +48,7 @@ nav a{
 
 nav a:hover,
 nav a.active{
-    color: #0ef;
+    color: #00ff99;
 }
 
 section {
@@ -51,25 +59,29 @@ section {
 }
 
 #Home {
-    background-color: mistyrose;
+    background-color: #1c1c22;
+    color: #00ff99;
 }
 
 #Education {
-    background-color: lightblue;
+    background-color: #1c1c22;
+    color: #00ff99;
 }
 
 #Projects {
-    background-color: lavender;
+    background-color: #1c1c22;
+    color: #00ff99;
 }
 
 #Contact {
-    background-color: beige;
+    background-color: #1c1c22;
+    color: #00ff99;
 }
 
-.main-img {
+/* .main-img {
     width: 100vw;
     height: 100vh;
     filter: brightness(0.6);
     top: 0;
     left: 0;
-}
+} */
