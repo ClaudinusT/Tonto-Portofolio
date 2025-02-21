@@ -1,0 +1,75 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    /* background-color: #11141a; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+nav a:hover,
+nav a.active{
+    color: #0ef;
+}
+
+section {
+    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home {
+    background-color: mistyrose;
+}
+
+#Education {
+    background-color: lightblue;
+}
+
+#Projects {
+    background-color: lavender;
+}
+
+#Contact {
+    background-color: beige;
+}
+
+.main-img {
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(0.6);
+    top: 0;
+    left: 0;
+}
